@@ -59,6 +59,14 @@ class PolynomialViaPoint:
         trajectory.set_title('trajectory')
         trajectory.grid()
 
+        points_x = [point['b'][0] for point in data]
+        points_y = [point['b'][1] for point in data]
+
+        trajectory.scatter(points_x, points_y)
+        for i in range(len(points_x)):
+            text = f"({points_x[i]},{points_y[i]})"
+            trajectory.annotate(text, (points_x[i], points_y[i]))
+
         plt.tight_layout()
         plt.show()
 
