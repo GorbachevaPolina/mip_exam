@@ -4,4 +4,5 @@
 
 Результаты для примера из учебника:
 
-![results](https://user-images.githubusercontent.com/61918298/174066264-b459beee-1edb-4cf4-82c3-36efc2e936eb.png)
+![results](https://user-images.githubusercontent.com/61918298/174117034-955c0481-b5b1-42e8-a058-8895994f9a60.png)
+
